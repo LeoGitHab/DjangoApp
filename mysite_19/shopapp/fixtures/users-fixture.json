@@ -1,0 +1,19 @@
+[
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$600000$jSZq2lCx3yfW8qeAEIx3LU$wLdt6EU2K07MojNYaGtkwlO7KaE1/Nd+OEW8VBOv1cY=",
+      "last_login": "2023-06-26T07:07:54.189Z",
+      "is_superuser": true,
+      "username": "leodjango",
+      "first_name": "Andrey",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2023-05-22T13:40:28Z",
+      "groups": []
+    }
+  }
+]

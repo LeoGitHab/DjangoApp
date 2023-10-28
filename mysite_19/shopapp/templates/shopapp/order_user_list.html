@@ -1,0 +1,54 @@
+{% extends 'shopapp/base.html' %}
+{% load cache %}
+
+{% block title %}
+   Order user list
+{% endblock %}
+
+{% block body %}
+    <h1> User '{% firstof owner.first_name owner.username %}' order following orders: </h1>
+
+    {% if object_list %}
+        {% if object_list|length > 1 %}
+            <h2>User has {{object_list|length}} orders.</h2>
+        {% else %}
+            <h2>User has {{object_list|length}} order.</h2>
+        {% endif %}
+
+        <div>
+            Timer to show that process is still running: {% now 'u' %}
+        </div>
+
+        <div>
+            {% cache 60 owner.id owner %}
+            {% for order in object_list %}
+                <p><b>Order №{{ order.pk }}</b></p>
+                <p>Delivery address: {{ order.delivery_address }}</p>
+                <p>Promocode: {% firstof order.promocode 'no' %} </p>
+                <p>Created at: {{ order.created_at }}</p>
+                <div>
+                    {% if order.products.all %}
+                        Products in order:
+                        <ul>
+                            {% for product in order.products.all %}
+                                <li> {{ product.name }} for ${{ product.price }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% else %}
+                        No any products in this order
+                    {% endif %}
+                </div>
+            {% endfor %}
+            {% endcache %}
+        </div>
+    {% else %}
+        <h3> No orders yet </h3>
+    {% endif %}
+
+    <div>
+        <a href="{% url 'myauth:users-list' %}">
+            Back to users list
+        </a>
+    </div>
+
+{% endblock %}

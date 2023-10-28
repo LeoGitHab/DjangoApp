@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="shopapp.product" pk="1">
+        <field name="name" type="CharField">Laptop</field>
+        <field name="description" type="TextField"></field>
+        <field name="price" type="DecimalField">1999.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">100</field>
+        <field name="date_received" type="DateTimeField">2023-05-24T01:33:33.809000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">False</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="2">
+        <field name="name" type="CharField">Smartphone</field>
+        <field name="description" type="TextField">Very good !!!!!</field>
+        <field name="price" type="DecimalField">2999.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">1000</field>
+        <field name="date_received" type="DateTimeField">2023-05-24T01:33:33.816000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField">products/product_2/preview/smartphone.jpg</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="3">
+        <field name="name" type="CharField">Desktop</field>
+        <field name="description" type="TextField">Beautiful device !</field>
+        <field name="price" type="DecimalField">4999.99</field>
+        <field name="quantity" type="PositiveSmallIntegerField">1500</field>
+        <field name="date_received" type="DateTimeField">2023-05-24T01:33:33.821000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">False</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField">products/product_3/preview/desktop.jpg</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="5">
+        <field name="name" type="CharField">Phone2(new)</field>
+        <field name="description" type="TextField">Phone2(new) is simply super !</field>
+        <field name="price" type="DecimalField">1900.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">500</field>
+        <field name="date_received" type="DateTimeField">2023-06-04T02:55:16.693000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="6">
+        <field name="name" type="CharField">Phone3</field>
+        <field name="description" type="TextField">Good!</field>
+        <field name="price" type="DecimalField">2000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">10</field>
+        <field name="date_received" type="DateTimeField">2023-06-04T03:43:38.493000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="7">
+        <field name="name" type="CharField">Phone7</field>
+        <field name="description" type="TextField">The best from all phones!!!</field>
+        <field name="price" type="DecimalField">5000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">54</field>
+        <field name="date_received" type="DateTimeField">2023-06-11T03:20:56.699000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="8">
+        <field name="name" type="CharField">Phone9</field>
+        <field name="description" type="TextField">The better than all Phones in World !</field>
+        <field name="price" type="DecimalField">5000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">47</field>
+        <field name="date_received" type="DateTimeField">2023-06-12T02:33:39.779000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="9">
+        <field name="name" type="CharField">Phone11</field>
+        <field name="description" type="TextField">Huge display !!!!!</field>
+        <field name="price" type="DecimalField">8000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">1100</field>
+        <field name="date_received" type="DateTimeField">2023-06-12T03:17:45.386000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="10">
+        <field name="name" type="CharField">Iphone-X</field>
+        <field name="description" type="TextField">Made in China</field>
+        <field name="price" type="DecimalField">5000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">11</field>
+        <field name="date_received" type="DateTimeField">2023-06-14T09:11:38.947000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="11">
+        <field name="name" type="CharField">Phone100500</field>
+        <field name="description" type="TextField">The last phone !!!!!</field>
+        <field name="price" type="DecimalField">10000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">5</field>
+        <field name="date_received" type="DateTimeField">2023-06-21T11:19:33.779000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="13">
+        <field name="name" type="CharField">iphone-XYZ</field>
+        <field name="description" type="TextField">New-Newer-The newest</field>
+        <field name="price" type="DecimalField">5000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">60</field>
+        <field name="date_received" type="DateTimeField">2023-06-21T11:22:54.148000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="14">
+        <field name="name" type="CharField">toyota-corona</field>
+        <field name="description" type="TextField">very fast !!!</field>
+        <field name="price" type="DecimalField">15000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">2</field>
+        <field name="date_received" type="DateTimeField">2023-06-21T11:38:40.929000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">True</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="15">
+        <field name="name" type="CharField">Nissan Almera</field>
+        <field name="description" type="TextField">Sedan</field>
+        <field name="price" type="DecimalField">7000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">1</field>
+        <field name="date_received" type="DateTimeField">2023-06-24T07:36:30.721000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField">products/product_15/preview/nissan_almera.png</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="16">
+        <field name="name" type="CharField">YAZ-Patriot</field>
+        <field name="description" type="TextField">4WD</field>
+        <field name="price" type="DecimalField">15000.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">3</field>
+        <field name="date_received" type="DateTimeField">2023-06-24T07:39:45.408000+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField">products/product_16/preview/yaz-patriot.png</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">1</field>
+    </object>
+    <object model="shopapp.product" pk="17">
+        <field name="name" type="CharField">Headphones</field>
+        <field name="description" type="TextField">Good sound !</field>
+        <field name="price" type="DecimalField">199.99</field>
+        <field name="quantity" type="PositiveSmallIntegerField">555</field>
+        <field name="date_received" type="DateTimeField">2023-08-30T09:39:21.120857+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField">products/product_None/preview/headsets.png</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">
+            <None></None>
+        </field>
+    </object>
+    <object model="shopapp.product" pk="18">
+        <field name="name" type="CharField">Hard Disc</field>
+        <field name="description" type="TextField">External 1Tb</field>
+        <field name="price" type="DecimalField">2999.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">50</field>
+        <field name="date_received" type="DateTimeField">2023-09-01T01:33:46.002436+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField">products/product_None/preview/External_HD.png</field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">
+            <None></None>
+        </field>
+    </object>
+    <object model="shopapp.product" pk="19">
+        <field name="name" type="CharField">New HD</field>
+        <field name="description" type="TextField">Internal HD 2Tb</field>
+        <field name="price" type="DecimalField">1999.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">20</field>
+        <field name="date_received" type="DateTimeField">2023-09-01T01:36:34.958687+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">False</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">
+            <None></None>
+        </field>
+    </object>
+    <object model="shopapp.product" pk="20">
+        <field name="name" type="CharField">Smartphone 1</field>
+        <field name="description" type="TextField"></field>
+        <field name="price" type="DecimalField">799.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">0</field>
+        <field name="date_received" type="DateTimeField">2023-09-11T07:24:39.973135+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">
+            <None></None>
+        </field>
+    </object>
+    <object model="shopapp.product" pk="21">
+        <field name="name" type="CharField">Smartphone 2</field>
+        <field name="description" type="TextField"></field>
+        <field name="price" type="DecimalField">899.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">0</field>
+        <field name="date_received" type="DateTimeField">2023-09-11T07:24:39.973237+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">
+            <None></None>
+        </field>
+    </object>
+    <object model="shopapp.product" pk="22">
+        <field name="name" type="CharField">Smartphone 3</field>
+        <field name="description" type="TextField"></field>
+        <field name="price" type="DecimalField">999.00</field>
+        <field name="quantity" type="PositiveSmallIntegerField">0</field>
+        <field name="date_received" type="DateTimeField">2023-09-11T07:24:39.973294+00:00</field>
+        <field name="has_additional_guarantee" type="BooleanField">True</field>
+        <field name="archived" type="BooleanField">False</field>
+        <field name="preview" type="FileField"></field>
+        <field name="created_by" rel="ManyToOneRel" to="auth.user">
+            <None></None>
+        </field>
+    </object>
+</django-objects>

@@ -1,0 +1,9 @@
+from django.contrib import admin
+from django.contrib.admin.options import InlineModelAdmin
+
+from .models import Profile
+
+
+@admin.register(Profile)
+class ProfileAdmin(admin.ModelAdmin):
+    list_display = 'user', 'bio', 'avatar',

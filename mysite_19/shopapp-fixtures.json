@@ -1,0 +1,317 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop",
+      "description": "",
+      "price": "1999.12",
+      "quantity": 100,
+      "date_received": "2023-05-24T01:33:33.809Z",
+      "has_additional_guarantee": false,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Very good !!!!!",
+      "price": "2999.22",
+      "quantity": 1000,
+      "date_received": "2023-05-24T01:33:33.816Z",
+      "has_additional_guarantee": false,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Desktop",
+      "description": "Beautiful device !",
+      "price": "3999.32",
+      "quantity": 1500,
+      "date_received": "2023-05-24T01:33:33.821Z",
+      "has_additional_guarantee": false,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "Phone2(new)",
+      "description": "Phone2(new) is simply super !",
+      "price": "1900.00",
+      "quantity": 500,
+      "date_received": "2023-06-04T02:55:16.693Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 6,
+    "fields": {
+      "name": "Phone3",
+      "description": "Good!",
+      "price": "2000.00",
+      "quantity": 10,
+      "date_received": "2023-06-04T03:43:38.493Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "Phone7",
+      "description": "The best from all phones!!!",
+      "price": "5000.00",
+      "quantity": 54,
+      "date_received": "2023-06-11T03:20:56.699Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 8,
+    "fields": {
+      "name": "Phone9",
+      "description": "The better than all Phones in World !",
+      "price": "5000.00",
+      "quantity": 47,
+      "date_received": "2023-06-12T02:33:39.779Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Phone11",
+      "description": "Huge display !!!!!",
+      "price": "8000.00",
+      "quantity": 1100,
+      "date_received": "2023-06-12T03:17:45.386Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 10,
+    "fields": {
+      "name": "Iphone-X",
+      "description": "Made in China",
+      "price": "5000.00",
+      "quantity": 11,
+      "date_received": "2023-06-14T09:11:38.947Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 11,
+    "fields": {
+      "name": "Phone100500",
+      "description": "The last phone !!!!!",
+      "price": "10000.00",
+      "quantity": 5,
+      "date_received": "2023-06-21T11:19:33.779Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 13,
+    "fields": {
+      "name": "iphone-XYZ",
+      "description": "New-Newer-The newest",
+      "price": "5000.00",
+      "quantity": 60,
+      "date_received": "2023-06-21T11:22:54.148Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 14,
+    "fields": {
+      "name": "toyota-corona",
+      "description": "very fast !!!",
+      "price": "15000.00",
+      "quantity": 2,
+      "date_received": "2023-06-21T11:38:40.929Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 15,
+    "fields": {
+      "name": "Nissan Almera",
+      "description": "Sedan",
+      "price": "7000.00",
+      "quantity": 1,
+      "date_received": "2023-06-24T07:36:30.721Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 16,
+    "fields": {
+      "name": "YAZ-Patriot",
+      "description": "4WD",
+      "price": "3000.00",
+      "quantity": 2,
+      "date_received": "2023-06-24T07:39:45.408Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 1,
+    "fields": {
+      "delivery_address": "Pushkin street, house 2",
+      "promocode": "SALE123",
+      "created_at": "2023-05-24T02:42:10.893Z",
+      "user": null,
+      "products": [
+        3,
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 2,
+    "fields": {
+      "delivery_address": "Lomonosov street, 35",
+      "promocode": "MAKE9876",
+      "created_at": "2023-06-04T05:02:33.980Z",
+      "user": null,
+      "products": [
+        5
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 3,
+    "fields": {
+      "delivery_address": "Apple avenue, 50",
+      "promocode": "WELL5555",
+      "created_at": "2023-06-04T05:03:45.636Z",
+      "user": null,
+      "products": [
+        6
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 5,
+    "fields": {
+      "delivery_address": "Any places, 202",
+      "promocode": "DELTA11",
+      "created_at": "2023-06-14T03:21:34.362Z",
+      "user": null,
+      "products": []
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 6,
+    "fields": {
+      "delivery_address": "Any places, 202",
+      "promocode": "DELTA11",
+      "created_at": "2023-06-14T03:24:26.067Z",
+      "user": null,
+      "products": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 7,
+    "fields": {
+      "delivery_address": "Any places, 202",
+      "promocode": "DELTA11",
+      "created_at": "2023-06-14T03:25:11.205Z",
+      "user": null,
+      "products": [
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 8,
+    "fields": {
+      "delivery_address": "AFA",
+      "promocode": "11111",
+      "created_at": "2023-06-14T03:27:39.914Z",
+      "user": null,
+      "products": [
+        9
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 9,
+    "fields": {
+      "delivery_address": "QQQ",
+      "promocode": "22222",
+      "created_at": "2023-06-14T03:30:15.107Z",
+      "user": null,
+      "products": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "shopapp.order",
+    "pk": 11,
+    "fields": {
+      "delivery_address": "Lenin street, 118",
+      "promocode": "",
+      "created_at": "2023-06-14T09:13:51.486Z",
+      "user": null,
+      "products": [
+        10
+      ]
+    }
+  }
+]

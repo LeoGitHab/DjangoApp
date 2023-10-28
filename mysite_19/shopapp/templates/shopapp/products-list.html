@@ -1,0 +1,56 @@
+{% extends 'shopapp/base.html' %}
+
+{% load i18n %}
+
+{% block title %}
+   {% translate 'Products list' %}
+{% endblock %}
+
+{% block body %}
+    <h1>{% translate 'Products' %} </h1>
+
+    {% if products %}
+        <div>
+            {% blocktranslate count product_count=products|length %}
+                There is only one product.
+                {% plural %}
+                There are {{ product_count }} products.
+            {% endblocktranslate %}
+        </div>
+
+        <div>
+        {% for product in products %}
+            <div>
+                <p><a href="{% url 'shopapp:product_detail' pk=product.pk %}">{% translate 'Name' context 'product name' %} {{ product.name }}</a></p>
+                <p>{% translate 'Price' %} ${{ product.price }}</p>
+                <p>{% translate 'Quantity' %} {{ product.quantity }}</p>
+                <p>{% translate 'Has_additional_guarantee' %} {% firstof product.has_additional_guarantee 'False' %} </p>
+
+            {% if product.preview %}
+                <div style="height:200px;width:300px">
+                    <img style="object-fit:cover;max-height:100%;width:100%" src="{{ product.preview.url }}" alt="{{ product.preview.name }}">
+                </div>
+            {% endif %}
+            </div>
+        {% endfor %}
+        </div>
+
+        {% if perms.shopapp.add_product %}
+            <div>
+                <a href="{% url 'shopapp:product_create' %}">
+                    {% translate 'Create a new product' %}
+                </a>
+            </div>
+        {% endif %}
+
+        {% else %}
+            <h3> {% translate 'No products yet' %} </h3>
+            <div>
+                <a href="{% url 'shopapp:product_create' %}">
+                    {% translate 'Create a new one' %}
+                </a>
+            </div>
+
+    {% endif %}
+
+{% endblock %}

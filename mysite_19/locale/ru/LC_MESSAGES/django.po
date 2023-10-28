@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-22 04:10+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: myauth/views.py:22
+msgid "welcome hello world !"
+msgstr "Привет, мир !"
+
+#: myauth/views.py:27
+msgid "one product"
+msgid_plural "{count} products"
+msgstr[0] "{count} товар"
+msgstr[1] "{count} товара"
+msgstr[2] "{count} товаров"
+
+#: mysite_17/settings.py:142
+msgid "English"
+msgstr "Английский"
+
+#: mysite_17/settings.py:143
+msgid "Russian"
+msgstr "Русский"
+
+#: shopapp/models.py:21 shopapp/templates/shopapp/product_detail.html:6
+msgid "Product"
+msgstr "Продукт"
+
+#: shopapp/models.py:22 shopapp/templates/shopapp/products-list.html:10
+msgid "Products"
+msgstr "Продукты"
+
+#: shopapp/models.py:66
+msgid "Order"
+msgstr "Заказ"
+
+#: shopapp/models.py:67
+msgid "Orders"
+msgstr "Заказы"
+
+#: shopapp/templates/shopapp/product_detail.html:13
+msgid "Description"
+msgstr "Описание"
+
+#: shopapp/templates/shopapp/product_detail.html:14
+#: shopapp/templates/shopapp/products-list.html:25
+msgid "Price"
+msgstr "Цена"
+
+#: shopapp/templates/shopapp/product_detail.html:15
+#: shopapp/templates/shopapp/products-list.html:26
+msgid "Quantity"
+msgstr "Количество"
+
+#: shopapp/templates/shopapp/product_detail.html:16
+msgid "Archived"
+msgstr "Заархивирован"
+
+#: shopapp/templates/shopapp/product_detail.html:24
+msgid "Images"
+msgstr "Изображения"
+
+#: shopapp/templates/shopapp/product_detail.html:26
+msgid ""
+"\n"
+"                    This product has only one image.\n"
+"                    "
+msgid_plural ""
+"\n"
+"                    This product has %(images_count)s images.\n"
+"                "
+msgstr[0] ""
+"\n"
+"                    У продукта только одно изображение.\n"
+"                    "
+msgstr[1] ""
+"\n"
+"                    У продукта %(images_count)s изображения.\n"
+"                "
+msgstr[2] ""
+"\n"
+"                    У продукта %(images_count)s изображений.\n"
+"                "
+
+#: shopapp/templates/shopapp/product_detail.html:48
+msgid "Update product"
+msgstr "Обновить продукт"
+
+#: shopapp/templates/shopapp/product_detail.html:52
+msgid "Archive product"
+msgstr "Удалить продукт"
+
+#: shopapp/templates/shopapp/product_detail.html:64
+msgid "Back to products list"
+msgstr "Вернуться к списку продуктов"
+
+#: shopapp/templates/shopapp/products-list.html:6
+msgid "Products list"
+msgstr "Список продуктов"
+
+#: shopapp/templates/shopapp/products-list.html:14
+msgid ""
+"\n"
+"                There is only one product.\n"
+"                "
+msgid_plural ""
+"\n"
+"                There are %(product_count)s products.\n"
+"            "
+msgstr[0] ""
+"\n"
+"                Доступен %(product_count)s товар.\n"
+"            "
+msgstr[1] ""
+"\n"
+"                Доступно %(product_count)s товара.\n"
+"            "
+msgstr[2] ""
+"\n"
+"                Доступно %(product_count)s товаров.\n"
+"            "
+
+#: shopapp/templates/shopapp/products-list.html:24
+msgctxt "product name"
+msgid "Name"
+msgstr "Название"
+
+#: shopapp/templates/shopapp/products-list.html:27
+msgid "Has_additional_guarantee"
+msgstr "Есть дополнительная гарантия"
+
+#: shopapp/templates/shopapp/products-list.html:41
+msgid "Create a new product"
+msgstr "Создать новый продукт"
+
+#: shopapp/templates/shopapp/products-list.html:47
+msgid "No products yet"
+msgstr "Ещё нет никаких продуктов"
+
+#: shopapp/templates/shopapp/products-list.html:50
+msgid "Create a new one"
+msgstr "Создать новый"

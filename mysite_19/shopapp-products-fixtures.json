@@ -1,0 +1,302 @@
+[
+  {
+    "model": "shopapp.product",
+    "pk": 1,
+    "fields": {
+      "name": "Laptop",
+      "description": "",
+      "price": "1999.00",
+      "quantity": 100,
+      "date_received": "2023-05-24T01:33:33.809Z",
+      "has_additional_guarantee": false,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 2,
+    "fields": {
+      "name": "Smartphone",
+      "description": "Very good !!!!!",
+      "price": "2999.00",
+      "quantity": 1000,
+      "date_received": "2023-05-24T01:33:33.816Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "products/product_2/preview/smartphone.jpg",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 3,
+    "fields": {
+      "name": "Desktop",
+      "description": "Beautiful device !",
+      "price": "4999.99",
+      "quantity": 1500,
+      "date_received": "2023-05-24T01:33:33.821Z",
+      "has_additional_guarantee": false,
+      "archived": false,
+      "preview": "products/product_3/preview/desktop.jpg",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 5,
+    "fields": {
+      "name": "Phone2(new)",
+      "description": "Phone2(new) is simply super !",
+      "price": "1900.00",
+      "quantity": 500,
+      "date_received": "2023-06-04T02:55:16.693Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 6,
+    "fields": {
+      "name": "Phone3",
+      "description": "Good!",
+      "price": "2000.00",
+      "quantity": 10,
+      "date_received": "2023-06-04T03:43:38.493Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 7,
+    "fields": {
+      "name": "Phone7",
+      "description": "The best from all phones!!!",
+      "price": "5000.00",
+      "quantity": 54,
+      "date_received": "2023-06-11T03:20:56.699Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 8,
+    "fields": {
+      "name": "Phone9",
+      "description": "The better than all Phones in World !",
+      "price": "5000.00",
+      "quantity": 47,
+      "date_received": "2023-06-12T02:33:39.779Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 9,
+    "fields": {
+      "name": "Phone11",
+      "description": "Huge display !!!!!",
+      "price": "8000.00",
+      "quantity": 1100,
+      "date_received": "2023-06-12T03:17:45.386Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 10,
+    "fields": {
+      "name": "Iphone-X",
+      "description": "Made in China",
+      "price": "5000.00",
+      "quantity": 11,
+      "date_received": "2023-06-14T09:11:38.947Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 11,
+    "fields": {
+      "name": "Phone100500",
+      "description": "The last phone !!!!!",
+      "price": "10000.00",
+      "quantity": 5,
+      "date_received": "2023-06-21T11:19:33.779Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 13,
+    "fields": {
+      "name": "iphone-XYZ",
+      "description": "New-Newer-The newest",
+      "price": "5000.00",
+      "quantity": 60,
+      "date_received": "2023-06-21T11:22:54.148Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 14,
+    "fields": {
+      "name": "toyota-corona",
+      "description": "very fast !!!",
+      "price": "15000.00",
+      "quantity": 2,
+      "date_received": "2023-06-21T11:38:40.929Z",
+      "has_additional_guarantee": true,
+      "archived": true,
+      "preview": "",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 15,
+    "fields": {
+      "name": "Nissan Almera",
+      "description": "Sedan",
+      "price": "7000.00",
+      "quantity": 1,
+      "date_received": "2023-06-24T07:36:30.721Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "products/product_15/preview/nissan_almera.png",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 16,
+    "fields": {
+      "name": "YAZ-Patriot",
+      "description": "4WD",
+      "price": "15000.00",
+      "quantity": 3,
+      "date_received": "2023-06-24T07:39:45.408Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "products/product_16/preview/yaz-patriot.png",
+      "created_by": 1
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 17,
+    "fields": {
+      "name": "Headphones",
+      "description": "Good sound !",
+      "price": "199.99",
+      "quantity": 555,
+      "date_received": "2023-08-30T09:39:21.120Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "products/product_None/preview/headsets.png",
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 18,
+    "fields": {
+      "name": "Hard Disc",
+      "description": "External 1Tb",
+      "price": "2999.00",
+      "quantity": 50,
+      "date_received": "2023-09-01T01:33:46.002Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "products/product_None/preview/External_HD.png",
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 19,
+    "fields": {
+      "name": "New HD",
+      "description": "Internal HD 2Tb",
+      "price": "1999.00",
+      "quantity": 20,
+      "date_received": "2023-09-01T01:36:34.958Z",
+      "has_additional_guarantee": false,
+      "archived": false,
+      "preview": "",
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 20,
+    "fields": {
+      "name": "Smartphone 1",
+      "description": "",
+      "price": "799.00",
+      "quantity": 0,
+      "date_received": "2023-09-11T07:24:39.973Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 21,
+    "fields": {
+      "name": "Smartphone 2",
+      "description": "",
+      "price": "899.00",
+      "quantity": 0,
+      "date_received": "2023-09-11T07:24:39.973Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": null
+    }
+  },
+  {
+    "model": "shopapp.product",
+    "pk": 22,
+    "fields": {
+      "name": "Smartphone 3",
+      "description": "",
+      "price": "999.00",
+      "quantity": 0,
+      "date_received": "2023-09-11T07:24:39.973Z",
+      "has_additional_guarantee": true,
+      "archived": false,
+      "preview": "",
+      "created_by": null
+    }
+  }
+]
