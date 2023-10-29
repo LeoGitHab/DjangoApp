@@ -1,6 +1,6 @@
 asgiref==3.6.0
 attrs==23.1.0
-backports.zoneinfo==0.2.1
+backports.zoneinfo;python_version<"3.9"
 black==23.7.0
 certifi==2023.7.22
 click==8.1.6
@@ -13,6 +13,7 @@ docutils==0.20.1
 drf-spectacular==0.26.4
 flake8==6.1.0
 flake8-docstrings==1.7.0
+gunicorn==21.2.0
 importlib-resources==6.0.1
 inflection==0.5.1
 jsonschema==4.19.0
