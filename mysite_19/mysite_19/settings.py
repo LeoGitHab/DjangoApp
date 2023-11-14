@@ -44,9 +44,13 @@ SECRET_KEY = getenv(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = getenv('DJANGO_DEBUG', '0') == '1'
 
+# ALLOWED_HOSTS = [
+#     '0.0.0.0',
+#     '127.0.0.1',
+# ] + getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
+
 ALLOWED_HOSTS = [
-    '0.0.0.0',
-    '127.0.0.1',
+    '*',
 ] + getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
 
 INTERNAL_IPS = [
@@ -223,6 +227,7 @@ LOGIN_REDIRECT_URL = reverse_lazy('myauth:about-me')
 LOGIN_URL = reverse_lazy('myauth:login')
 
 LOGLEVEL = getenv('DJANGO_LOGLEVEL', 'info').upper()
+
 logging.config.dictConfig({
     'version': 1,
     'disable_existing_loggers': False,
