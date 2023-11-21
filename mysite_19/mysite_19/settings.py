@@ -45,14 +45,15 @@ SECRET_KEY = getenv(
 # DEBUG = getenv('DJANGO_DEBUG', '0') == '1'
 DEBUG = True
 
-# ALLOWED_HOSTS = [
-#     '0.0.0.0',
-#     '127.0.0.1',
-# ] + getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
-
 ALLOWED_HOSTS = [
+    '0.0.0.0',
+    '127.0.0.1',
     '*',
 ] + getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
+
+# ALLOWED_HOSTS = [
+#     '*',
+# ] + getenv('DJANGO_ALLOWED_HOSTS', '').split(',')
 
 INTERNAL_IPS = [
     '127.0.0.1',
