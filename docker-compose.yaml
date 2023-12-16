@@ -21,3 +21,16 @@ services:
         max-size: "200k"
     volumes:
       - ./mysite_19/database:/app/database
+
+  nginx:
+      build:
+        dockerfile: ./nginx/Dockerfile
+      ports:
+        - "80:80"
+      volumes:
+        - ./src:/usr/share/nginx/html
+      depends_on:
+        - app
+
+volumes:
+  database:
