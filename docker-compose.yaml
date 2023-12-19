@@ -11,7 +11,7 @@ services:
       - 0.0.0.0:8000
     ports:
       - "8000:8000"
-    restart: always
+    
     env_file:
       - .env
     logging:
@@ -23,14 +23,12 @@ services:
       - ./mysite_19/database:/app/database
 
   nginx:
-      build:
-        dockerfile: ./nginx/Dockerfile
-      ports:
-        - "80:80"
-      volumes:
-        - ./src:/usr/share/nginx/html
-      depends_on:
-        - app
+    build:
+      dockerfile: ./nginx/Dockerfile
+    ports:
+      - "80:80"
+    depends_on:
+      - app
 
 volumes:
   database:
