@@ -42,7 +42,8 @@ SECRET_KEY = getenv(
 )
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = getenv('DJANGO_DEBUG', '0') == '1'
+#  DEBUG = getenv('DJANGO_DEBUG', '0') == '1'
+DEBUG = True
 
 ALLOWED_HOSTS = [
     '0.0.0.0',
@@ -56,6 +57,7 @@ ALLOWED_HOSTS = [
 
 INTERNAL_IPS = [
     '127.0.0.1',
+    '0.0.0.0',
 ]
 
 SECURE_CROSS_ORIGIN_OPENER_POLICY = None
@@ -196,12 +198,7 @@ LANGUAGES = [
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-if DEBUG:
-    STATICFILES_DIRS = [
-        BASE_DIR / "static",
-    ]
-else:
-    STATIC_ROOT = BASE_DIR / "static"
+STATIC_ROOT = BASE_DIR / 'static'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'uploads'
